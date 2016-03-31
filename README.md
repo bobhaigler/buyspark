@@ -1,4 +1,4 @@
-# gratitude-lp
+# buyspark
 
 This is a barebones Ruby app using the [Sinatra](http://www.sinatrarb.com) framework.
 
@@ -11,7 +11,7 @@ gem install bundler
 
 Then run the sinatra app.
 ```sh
-cd gratitude-lp
+cd buyspark
 bundle    # only needed the first time, or if you add a gem
 foreman start
 ```
