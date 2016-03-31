@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'proximanova-regular-webfont';
+    src: url('../fonts/proximanova-regular-webfont.eot');
+    src: url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/proximanova-regular-webfont.woff2') format('woff2'),
+        url('../fonts/proximanova-regular-webfont.woff') format('woff'),
+        url('../fonts/proximanova-regular-webfont.ttf')  format('truetype'),
+        url('../fonts/proximanova-regular-webfont.svg#svgFontName') format('svg');
+}
+
+@font-face {
+    font-family: 'proximanova-light-webfont';
+    src: url('../fonts/proximanova-light-webfont.eot');
+    src: url('../fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/proximanova-light-webfont.woff2') format('woff2'),
+        url('../fonts/proximanova-light-webfont.woff') format('woff'),
+        url('../fonts/proximanova-light-webfont.ttf')  format('truetype'),
+        url('../fonts/proximanova-light-webfont.svg#svgFontName') format('svg');
+}
+
+@font-face {
+    font-family: 'proximanova-bold-webfont';
+    src: url('../fonts/proximanova-bold-webfont.eot');
+    src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/proximanova-bold-webfont.woff2') format('woff2'),
+        url('../fonts/proximanova-bold-webfont.woff') format('woff'),
+        url('../fonts/proximanova-bold-webfont.ttf')  format('truetype'),
+        url('../fonts/proximanova-bold-webfont.svg#svgFontName') format('svg');
+}
+
+body {
+    font-family: 'proximanova-regular-webfont';
+}
+
+strong,
+section h3,
+#cta input[type="text"],
+#cta .card-container #card-text .amount-clone
+{
+    font-family: 'proximanova-bold-webfont';
+}
+
+#hero,
+section h2
+{
+    font-family: 'proximanova-light-webfont';
+}
